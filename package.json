@@ -1,6 +1,6 @@
 {
   "name": "realestate-mcp",
-  "version": "2.1.0",
+  "version": "2.1.4",
   "description": "MCP server for real estate agents — floor plans, virtual tours, property descriptions (EN/FR), price estimation, property comparison, staging suggestions, neighborhood analysis, and 3D previews",
   "type": "module",
   "main": "dist/index.js",
@@ -42,13 +42,13 @@
   "author": "SceneView Tools",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.1"
+    "@modelcontextprotocol/sdk": "^1.29.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
     "typescript": "^5.8.3",
-    "vitest": "^3.1.2",
-    "tsx": "^4.19.4"
+    "vitest": "^3.1.4"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -58,5 +58,15 @@
     "type": "git",
     "url": "https://github.com/sceneview-tools/realestate-mcp.git"
   },
-  "mcpName": "io.github.sceneview/realestate-mcp"
+  "mcpName": "io.github.sceneview/realestate-mcp",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/sceneview"
+    },
+    {
+      "type": "polar",
+      "url": "https://polar.sh/sceneview"
+    }
+  ]
 }
